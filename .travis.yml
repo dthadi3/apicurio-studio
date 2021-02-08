@@ -18,7 +18,7 @@ before_install:
   - echo 'MAVEN_OPTS="-XX:+TieredCompilation -XX:TieredStopAtLevel=1 -Xmx512m"' > ~/.mavenrc
 
 jdk:
-  - oraclejdk8
+  - openjdk8
       
 script:
   - mvn clean install
